@@ -1,0 +1,8 @@
+
+Our artifact does not require a specific installation. 
+The only source code file in our replication package is "10-calculate-agreement-published".
+It is a Jypyter Notebook which can be opened using a code editor (e.g. Visual Studio Code).
+A user is asked to provide a path of 4 raw agreement files 
+("6-cve-coder1", "7-cve-coder2","8-cwe-coder1" and "9-cwe-coder2") in the source code.
+It will then calculates and returns the Cohen’s Kappa coefficient between two coders as an output.
+

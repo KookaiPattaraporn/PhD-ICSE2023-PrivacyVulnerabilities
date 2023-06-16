@@ -1,0 +1,28 @@
+\section{Conclusions and future work} \label{sec:conclusion}
+
+The increasing use of software applications in people's daily lives has put privacy under constant threat as personal data are collected, processed and transferred by many software applications. In this paper, we performed a number of studies on privacy vulnerabilities  in software applications. Our study on CWE and CVE systems found that the coverage of privacy-related vulnerabilities in both systems is quite limited (4.45\% in the CWE system and 0.1\% in the CVE system).
+
+We have also investigated on how those privacy-related vulnerabilities identified in CWE and CVE address the common privacy threats in software applications. To do so, we developed a taxonomy of common privacy threats, which was extended from the existing work \cite{Stallings2019}, based on selected privacy engineering research, data protection regulations and privacy frameworks and industry resources. %To do so, we developed a taxonomy of common privacy threats based on selected privacy engineering research, well-established data protection regulations and privacy frameworks and industry resources. %Two coders were assigned to classify the privacy-related vulnerabilities in CWE and CVE into the common privacy threats. The reliability assessment and disagreement resolution were conducted to ensure the reliability the classifications. 
+We have found that only 13 out of 24 common privacy vulnerabilities in the taxonomy are covered by the existing weaknesses and vulnerabilities reported in CWE and CVE. %The top three most addressed vulnerabilities are exposing personal data to an unauthorised actor, insufficient levels of protection and personal data attacks. 
+Based on these actionable insights, we proposed 11 new common privacy weaknesses to be added to the CWE system. We also mined code fragments from real software repositories to confirm the existence of those privacy weaknesses. These newly proposed weaknesses will significantly improve the coverage of privacy weaknesses and vulnerabilities in CWE, and subsequently CVE.
+
+Future work involves expanding our taxonomy to cover additional common privacy threats that may have raised or discussed in other sources. We will also perform a study to characterise privacy vulnerabilities in software applications. This will enable us to develop new techniques and tools for automatically detecting privacy vulnerabilities in software and suggesting fixes.
+
+%There are 18 types of common privacy vulnerabilities not covered by the privacy-related CWE and CVE.
+
+%Based on these actionable insights, we proposed 18 new common privacy weaknesses to be added to the CWE system. These weaknesses are developed from the common privacy vulnerabilities that have not been addressed in the existing CWE and CVE. We have followed the CWE schema to define our privacy weaknesses with their important description (e.g., causes, consequences and mitigation methods). We also extracted code fragments from real software repositories to confirm the existence of the privacy weaknesses. These newly proposed weaknesses will significantly improve the coverage of privacy weaknesses and vulnerabilities in CWE and CVE.
+
+
+%We believe that our work initiates the discussion on privacy-related vulnerabilities in software applications, following the security vulnerabilities that have so far attracted more attention from the community in this arena. Our future work involve expanding our explanatory study to increase the generalisable of our taxonomy for common privacy threats. We also plan to develop an automated tool to detect privacy vulnerabilities in open-source software repositories.
+
+%We selected a set of attributes in the official CWE schema to create a template for reporting new entries.
+
+%To identify the privacy-related vulnerabilities, we first defined privacy keywords and performed the keyword searches to filter out irrelevant CWE and CVE records. We then manually examined the CWE and CVE records based on the privacy-related criteria.
+
+%We first conducted an explanatory study to explore the common privacy threats that have been identified in privacy engineering research, well-established data protection regulations and privacy frameworks and industry resources. We classified the privacy-related vulnerabilities into the common privacy threats in the taxonomy.
+
+%We acknowledge that future work could involve expanding our explanatory study to include more
+
+%Our study has been provened that there is a call for the development of privacy-related common weaknesses in software applications. The privacy-related concerns are hidden in security vulnerabilities as discovered in Section \ref{sec:identifying-privacy-vul}. %There are common privacy vulnerabilities in software applications that have not been addressed in software vulnerability management system.
+
+%Our coders achieved a strong reliability in their classification. 
